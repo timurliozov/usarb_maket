@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+</head>
+<body>
+    <ul id="main">
+        <li id="firstsection">
+        <div class="orar">
+            <h4>Orarul cursurilor</h4>
+        </div>
+
+        <div id="buttons">   
+        <button>Grupe</button>
+        <button>Profesori</button>
+        <button>Aule</button>
+        </div>
+        
+        <div class="rps">
+            <p>Regim pentru student</p> 
+            <button class="regim"></button>
+        </div>
+            
+        <div class="is21">
+            
+                <span class="mdi mdi-magnify"></span>
+                <p> Is21R</p>
+                <span class="mdi mdi-close"></span>
+            
+        </div>
+            
+        <div class="groupselector">
+                <ul class="group">
+                    <li>Is11r</li>
+                    <li class="selected">Is21r</li>
+                    <li>Is31r</li>
+                    <li>Ab11r</li>
+                    <li>Ab21r</li>
+                    <li>Ab31r</li>
+                    <li>Ab41r</li>
+                    <li>Is31r</li>
+                    <li>Ab11r</li>
+                    <li>Ab21r</li>
+                    <li>Ab31r</li>
+                    <li>Ab41r</li>
+                </ul>
+        </div>
+
+                <select id="daySelector">
+                    <option value="-1">Ziua</option>
+                    <option value="0">Luni</option>
+                    <option value="1">Marți</option>
+                    <option value="2">Miercuri</option>
+                    <option value="3">Joi</option>
+                    <option value="4">Vineri</option>
+                    <option value="5" selected="selected">Sîmbătă</option>
+                    <option value="6">Duminică</option>
+                </select>
+
+                <select id="weekSelector">
+                    <option value="0">1 (2.9.2024)</option>
+                    <option value="1">2 (2.9.2024)</option>
+                    <option value="2" selected="selected">3 (2.9.2024)</option>
+                    <option value="3">4 (2.9.2024)</option>
+                    <option value="4">5 (2.9.2024)</option>
+                    <option value="5">6 (2.9.2024)</option>
+                    <option value="6">7 (2.9.2024)</option>
+                </select>
+          
+        <table id="tableorar">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="firstelement">L-18</td>
+                    <td class="green">L</td>
+                    <td class="green">L</td>
+                    <td></td>
+                    <td class="pink">EP</td>
+                    <td class="pink">S</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="firstelement">Ma-19</td>
+                    <td></td>
+                    <td></td>
+                    <td class="green">P</td>
+                    <td class="green">L</td>
+                    <td class="pink">L</td>
+                    <td class="pink">L</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="firstelement">Mi-20</td>
+                    <td></td>
+                    <td></td>
+                    <td class="green">L</td>
+                    <td class="green">EP</td>
+                    <td class="pink">L</td>
+                    <td class="blue">S</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="firstelement">J-21</td>
+                    <td class="orange">R</td>
+                    <td></td>
+                    <td class="grey">R</td>
+                    <td class="pink">S</td>
+                    <td class="pink">L</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="firstelement">V-22</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="green">L</td>
+                    <td class="pink">EP</td>
+                    <td class="blue">S</td>
+                    <td class="yellow">R</td>
+                </tr>
+                <tr>
+                    <td class="firstelement">S-23</td>
+                    <td class="dark">EP</td>
+                    <td class="pink">L</td>
+                    <td class="blue">S</td>
+                    <td class="blue">S</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="firstelement">D-24</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+         </table>
+            
+            <div id="textunder">
+                <p>P-Prelegere</p>
+                <p>S-Seminar</p>
+                <p>L-Laborator</p>
+                <p>PC-Proiect de curs</p>
+                <p>EP-Evaluare periodica</p>
+                <p>C-Consultatie</p>  
+                <p>E-Examinare</p>
+                <p>R-Reexaminare</p>
+            </div>
+            
+            <div>
+                <button>Descarca Orar</button>
+                <button>Examene</button>
+                <button>Planificare</button>
+            </div>
+
+            <div class="services">Serviciul este inactiv intre ore 23:00 si 3:00</div>
+        </li>
+        
+        
+        
+        <li  id="secondsection">
+            <img class="logo" src="img/logo_usarb.png">
+            <h2>Universitatea De Stat  "Alecu Russo" din Balti</h2>
+
+            <table id="sectable">
+                <tbody>
+                    <tr>
+                        <td class="leftcolumn">8:00 <br> 9:30</td>
+                        <td>
+                            <strong>Filosofia și probleme filosofice ale domeniului</strong>
+                            <p> Evaluare periodică</p>
+                            
+                            <p>lect. univ., dr.Parnovel V.</p>
+                            
+                            <strong>aud. 505</strong>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">9:45 <br> 11:15</td>
+                        <td>
+                            <strong>Limbaje de programare structurată</strong>
+                            <p> Laborator (Sb. 2)</p>
+                            
+                            <p>asist. univ.Țîcău V.</p>
+                            
+                            <strong>aud. 141a</strong>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">11:30 <br> 13:00</td>
+                        <td>
+                            <strong>Filosofia și probleme filosofice ale domeniului</strong>
+                            <p> Seminar</p>
+                            
+                            <p>asist. univ.O. Jacota</p>
+                            
+                            <strong>aud. 505</strong>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">13:15 <br> 14:45</td>
+                        <td>
+                            <strong>Filosofia și probleme filosofice ale domeniului</strong>
+                            <p> Seminar</p>
+                            
+                            <p>asist. univ.O. Jacota</p>
+                            
+                            <strong>aud. 505</strong>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">15:00 <br> 16:30</td>
+                        <td></td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">16:45 <br> 18:15</td>
+                        <td></td> 
+                    </tr>
+                    <tr>
+                        <td class="leftcolumn">18:30 <br> 20:00</td>
+                        <td></td> 
+                    </tr>
+                </tbody>
+            </table>
+        </li>
+    </ul>
+</body>
+</html>
+      
